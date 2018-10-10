@@ -4,7 +4,7 @@ def badge_marker(name)
 end
 def batch_badge_creator(arr)
   msg_arr = []
-  counter = 0 
-  while counter < arr.size 
+  arr.each do |name|
+    
   
   
