@@ -10,6 +10,7 @@ def batch_badge_creator(arr)
   end
   return msg_arr
 end
+ 
  def assign_rooms(arr) 
    counter = 1 
    arr.each do |name|
@@ -17,3 +18,8 @@ end
   counter += 1 
 end
 end
+
+def printer 
+  batch_badge_creator
+   assign_rooms
+ end
