@@ -17,6 +17,7 @@ end
      puts "Hello, #{name}! You`ll be asssigned to room #{counter}!"
   counter += 1 
 end
+return "Hello, #{name}! You`ll be asssigned to room #{counter}!"
 end
 
 def printer 
