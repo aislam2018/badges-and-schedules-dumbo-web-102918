@@ -11,6 +11,9 @@ def batch_badge_creator(arr)
   return msg_arr
 end
  def assign_rooms(arr) 
+   counter = 1 
    arr.each do |name|
-     puts "Hello, #{|name|}! You`ll be asssigned to room"
-  
+     puts "Hello, #{name}! You`ll be asssigned to room #{counter}"
+  counter += 1 
+end
+end
