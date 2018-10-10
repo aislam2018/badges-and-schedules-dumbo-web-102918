@@ -10,5 +10,6 @@ def batch_badge_creator(arr)
   end
   return msg_arr
 end
-  
+ def assign_rooms(arr) 
+   
   
