@@ -22,6 +22,13 @@ return new_arr;
 end
 
 def printer(attendees)
-   puts batch_badge_creator(attendees)
-   puts assign_rooms(attendees)
+   msg_arr = batch_badge_creator(attendees)
+   msg_arr.each do |msg|
+     puts "#{msg}"
+   end
+   assignments = assign_rooms(attendees)
+   assignments.each do |assign|
+     puts "#{assign}"
+   end
  end
+ 
