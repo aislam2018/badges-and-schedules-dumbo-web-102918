@@ -24,7 +24,7 @@ end
 def printer(attendees)
    msg_arr = batch_badge_creator(attendees)
    msg_arr.each do |msg|
-     puts "#{msg}"
+     puts msg
    end
    assignments = assign_rooms(attendees)
    assignments.each do |assign|
