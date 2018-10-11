@@ -15,7 +15,7 @@ end
    new_arr = []
    counter = 1 
    arr.each do |name|
-    new_arr.push("Hello, #{name}! You`ll be asssigned to room #{counter}!")
+    new_arr.push("Hello, #{name}! You'll be asssigned to room #{counter}!")
   counter += 1 
 end
 return new_arr;
